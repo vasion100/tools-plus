@@ -1,0 +1,42 @@
+# <type>(<scope>): <subject>
+
+
+# <body>
+
+
+# <breaking changes>
+
+
+# <closed issues>
+
+# type(类型)包含:
+#     feat：新功能（feature）
+#     fix：修复bug
+#     doc：仅仅修改了文档，如readme.md
+#     style：仅仅是对格式进行修改，如逗号、缩进、空格等，不改变代码逻辑
+#     refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+#     perf: 优化相关，如提升性能、用户体验等
+#     test：测试用例，包括单元测试、集成测试
+#     build: 影响构建系统或外部依赖项的更改(maven,gradle,npm等等)
+#     ci: 对CI配置文件和脚本的更改
+#     chore: 改变构建流程、或者增加依赖库、工具等
+#     revert: 代码回退
+#
+# scope(影响范围)：
+#     用于说明 commit 影响的范围
+#
+# subject(主题)：
+#    commit目的的简短描述，不超过50个字符
+#
+# body(详细描述)：
+#     对本次commit的详细描述，可以分成多行
+#
+# breaking changes(破坏性变更)：
+#     以"BREAKING CHANGE:"开头,后面是对变动的描述、以及变动理由和迁移方法,可以为空,
+#     如:BREAKING CHANGE:字段变更
+#
+# closed issues(关闭Issues):
+#     以Closes开头,后面接要关闭的Issues号,如:Closes #1000;
+#     同时关闭多个的issues时,格式如下：
+#         Closes #1000
+#         Closes #1001
